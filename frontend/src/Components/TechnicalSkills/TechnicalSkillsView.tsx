@@ -10,13 +10,13 @@ export const TechnicalSkillsView: React.FC<ITechnicalSkillsDictionary> = (techni
             Object.entries(technicalSkillsData)
                 .map(([key, value]) =>
                     <>
-                        <Col xs={6} md={6} lg={4} style={{ textAlign: "center" }}>
+                        <Col xs={10} md={6} lg={4} style={{ textAlign: "center" }}>
                             <h3 style={{ textDecoration: "underline" }}>{spaceWordsWithCapitalLetter(key)}</h3>
                             <ListGroup key={key} variant="flush" >
                                 {
                                     value.map((e) => {
                                         return (
-                                            <ListGroup.Item style={{ textAlign: "center" }} className="list-item-config" key={e} as="li">{e}</ListGroup.Item>
+                                            <ListGroup.Item style={{ textAlign: "left", width: "50%", margin: "auto" }} className="list-item-config" key={e} as="li">{e}</ListGroup.Item>
                                         );
                                     })
                                 }
