@@ -10,6 +10,77 @@ interface Projects {
 }
 
 export const projects: Projects = {
+    CareerCatalyst: {
+        Photo: "https://drive.google.com/thumbnail?id=1789zAtxVO2ZUPwhYUQB4FmVptZ6OTQHq&sz=w1000",
+        Info: "ASU's Career Catalyst is a platform that helps with upskilling for learners trying to advance their career.",
+        Details: [
+            "NUXT2 and Vue.js were used to create a web application that is user friendly and easy to navigate.",
+            "Created a career path builder using OpenAI's GPT-3.5 Turbo to help users create a career path based on their skills and interests.",
+            "Implemented AWS Lambda to create a serverless application that is scalable and cost effective.",
+            "I used AWS S3 to store user data and AWS Cognito for user authentication.",
+            "I used DynamoDB to create a database that is scalable and cost effective.",
+            "Integrated Salesforce to create a CRM that is scalable and cost effective.",
+        ],
+        TechStack: [
+            "NUXT2",
+            "Vue.js",
+            "Javascript",
+            "DynamoDB",
+            "Express.JS",
+            "AWS Lambda",
+            "Salesforce",
+            "AWS S3",
+            "AWS Cognito",
+            "Node.JS",
+            "Typesense",
+            "Canvas",
+            "OpenAI",
+        ],
+        Link: "https://careercatalyst.asu.edu/",
+        IsDeployed: "Currently Deployed on AWS",
+    },
+    ElixirIv: {
+        Photo: "https://drive.google.com/thumbnail?id=1I_M0iW4BmUvWduWjcjlj31WS7L7DCXlw&sz=w1000",
+        Info: "A mobile iv hydration service that provides hydration and vitamin therapy.",
+        Details: [
+            "Implemented a React application that is user friendly, easy to navigate, mobile friendly and SSR.",
+            "I hit 100% SEO and Lighthouse scores using Vite and SSR.",
+            "I used Nodemailer to send emails to users and Twilio to send SMS messages to users.",
+            "Made responsive web design using advanced CSS3 principles like styling such as using grid, flex and media queries."
+        ],
+        TechStack: [
+            "React",
+            "Typescript",
+            "Node.JS",
+            "Nodemailer",
+            "Vite",
+            "SSR",
+            "Bootstrap"
+        ],
+        Link: "https://elixirivtherapy.com/",
+        IsDeployed: "Currently Deployed on Vercel",
+    },
+    AquaticNWritingRehab: {
+        Photo: "https://drive.google.com/thumbnail?id=1sCd5_b6XUfZv9Ke6TCIkKfNIKR-beXv2&sz=w1000",
+        Info: "An application for a children's rehab facility specializing in aquatics.",
+        Details: [
+            "Implementing bootstrap designs and semantic UI elements to make responsive web design.",
+            "Using Node.JS to communicate with the front end of my application so data can be easily passed from the backend",
+            "Working the technologies such as nodemailer to allow form submission on client side to make UX intuitive.",
+            "Using git branches and git merges to manage our applications progress on the team. Creating a trello board to delegate and complete tasks with transparency, while working using agile scrum methodology of 2 day sprints.",
+            "Using functions like .map() to easily display an array of data that is being passed from endpoints on the backend.",
+        ],
+        TechStack: [
+            "React",
+            "Javascript",
+            "PostgreSQL",
+            "Express.JS",
+            "Node.JS",
+            "Nodemailer",
+        ],
+        Link: "https://www.anwrehab.com/",
+        IsDeployed: "Deployed on Vercel",
+    },
     WbExplorer: {
         Photo: "https://drive.google.com/thumbnail?id=1lNsFmY6ZKV766BZR1It4p_Tt3J2btmsc&sz=w1000",
         Info: "A site dedicated to helping backpackers traveling the world.",
@@ -62,26 +133,5 @@ export const projects: Projects = {
         ],
         Link: "https://github.com/mcintdre000/Adventure-Project",
         IsDeployed: "Currently Not Deployed",
-    },
-    AquaticNWritingRehab: {
-        Photo: "https://drive.google.com/thumbnail?id=1sCd5_b6XUfZv9Ke6TCIkKfNIKR-beXv2&sz=w1000",
-        Info: "An application for a children's rehab facility specializing in aquatics.",
-        Details: [
-            "Implementing bootstrap designs and semantic UI elements to make responsive web design.",
-            "Using Node.JS to communicate with the front end of my application so data can be easily passed from the backend",
-            "Working the technologies such as nodemailer to allow form submission on client side to make UX intuitive.",
-            "Using git branches and git merges to manage our applications progress on the team. Creating a trello board to delegate and complete tasks with transparency, while working using agile scrum methodology of 2 day sprints.",
-            "Using functions like .map() to easily display an array of data that is being passed from endpoints on the backend.",
-        ],
-        TechStack: [
-            "React",
-            "Javascript",
-            "PostgreSQL",
-            "Express.JS",
-            "Node.JS",
-            "Nodemailer",
-        ],
-        Link: "https://www.anwrehab.com/",
-        IsDeployed: "Deployed on Vercel",
-    },
+    }
 };
